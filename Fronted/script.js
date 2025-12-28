@@ -7,6 +7,7 @@ addTaskBtn.addEventListener("click", function () {
     const title = taskTitle.value;
     const desc = taskDesc.value;
 
+    // base validation for empty fields
     if (title === "" || desc === "") {
         alert("Please fill all fields");
         return;

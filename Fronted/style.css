@@ -51,3 +51,32 @@ input {
     margin-bottom: 5px;
     border-radius: 4px;
 }
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete-btn {
+    margin-left: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 4px 6px;
+    cursor: pointer;
+}
+.edit-btn {
+    margin-left: 5px;
+    background: orange;
+    color: white;
+    border: none;
+    padding: 4px 6px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background: darkorange;
+}
+
+button {
+    border-radius: 4px;
+}
